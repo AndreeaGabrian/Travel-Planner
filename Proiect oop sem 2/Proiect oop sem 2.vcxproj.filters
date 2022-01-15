@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Domain">
+      <UniqueIdentifier>{24a87ba4-cd5e-45d9-8b4b-9de10dfe3a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{4fce9a92-4626-497d-a5b5-bea7ddc4fcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repo">
+      <UniqueIdentifier>{49a4e109-2309-40ef-94c5-0712df6ca5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{bc2128e9-698b-4a08-a11e-e3b725fabe6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{034044cd-4a5f-49e7-b003-adfb2cd0466b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{5a432b38-7643-49b3-92c7-09f7d83aee84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{9fbceda7-ff58-41dc-985f-f55660a2ee55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{2ccf81c0-719e-41c4-8ee3-02d4294a7386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{9fcbb6d8-5a71-424d-9a5c-cb187daaeaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{1c2bb5a3-1d3e-44e8-acd1-edb99629f5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repo">
+      <UniqueIdentifier>{054b6007-0ece-4024-acd6-e8ac470ce1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repo\Template">
+      <UniqueIdentifier>{a5a1f3b6-9eb2-4363-af39-095510077cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptii">
+      <UniqueIdentifier>{0225f960-23ed-4c19-bf89-a5a8b4d055d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validatori">
+      <UniqueIdentifier>{2f6ece07-c98a-42f5-821a-dfcbd2338050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptii">
+      <UniqueIdentifier>{8a4897f6-a386-4d25-ba5a-133977c003d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validatori">
+      <UniqueIdentifier>{24086c6d-f9ce-4462-b20a-e35f6a2550e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LogIn/SignIn">
+      <UniqueIdentifier>{11cba840-f95a-45de-a629-2731f3ad7f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LogIn/SignIn">
+      <UniqueIdentifier>{d38eced7-4df8-46dd-9ce9-39319fca712c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Teste">
+      <UniqueIdentifier>{e68eaf58-33c5-48b8-ae45-48aaafac7780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teste">
+      <UniqueIdentifier>{a9ae7379-229d-461d-9d1d-1db32cc35a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\test files">
+      <UniqueIdentifier>{a6d17339-6600-46e9-a2a2-6a9610a82c9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Localitate.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="PunctDeVizitare.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicePunctDeVizitare.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocalitati.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordonateGeo.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruta.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoFileLocalitati.cpp">
+      <Filter>Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoFileRuta.cpp">
+      <Filter>Source Files\Repo</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceRuta.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ObiectivTuristic.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceObiectivTuristic.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptii.cpp">
+      <Filter>Source Files\Exceptii</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Source Files\Validatori</Filter>
+    </ClCompile>
+    <ClCompile Include="Proiect oop sem 2.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Calatorie.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctiiUtile.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\LogIn/SignIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\LogIn/SignIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files\LogIn/SignIn</Filter>
+    </ClCompile>
+    <ClCompile Include="UICalator.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteDomain.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteRepo.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteRepoFile.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteServiceLocalitate.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteServicePunctDeVizitare.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteServiceRuta.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteServiceObiectiv.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteValidatori.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteCalatorie.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Localitate.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="PunctDeVizitare.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicePunctDeVizitare.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocalitati.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordonateGeo.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruta.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceRuta.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ObiectivTuristic.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="IRepoTemplate.h">
+      <Filter>Header Files\Repo\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoTemplate.h">
+      <Filter>Header Files\Repo\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoTemplateFile.h">
+      <Filter>Header Files\Repo\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceObiectivTuristic.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Header Files\Validatori</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptii.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="Calatorie.h">
+      <Filter>Header Files\Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="UICalator.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctiiUtile.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\LogIn/SignIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files\LogIn/SignIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files\LogIn/SignIn</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteDomain.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteRepo.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteRepoFile.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteServiceLocalitate.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteServicePunctDeVizitare.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteServiceRuta.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteServiceObiectiv.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteValidatori.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteCalatorie.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="pct.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="rute.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="obiective.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Login.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="andreea.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="admin.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Locatii.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="testLocalitatiRepoIn.txt">
+      <Filter>Resource Files\test files</Filter>
+    </Text>
+    <Text Include="testLocalitatiRepoOut.txt">
+      <Filter>Resource Files\test files</Filter>
+    </Text>
+    <Text Include="testCalatorieIn.txt">
+      <Filter>Resource Files\test files</Filter>
+    </Text>
+    <Text Include="testCalatorieOut.txt">
+      <Filter>Resource Files\test files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

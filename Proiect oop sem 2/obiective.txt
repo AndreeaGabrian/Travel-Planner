@@ -1,0 +1,12 @@
+5 Biserica-Neagra 5 istoric 10 da nu
+6 Muzeul-Botanic-UBB 2 cultural 5 da nu
+7 Parcul-Etnografic-Romulus-Vuia 2 altele 10 nu nu
+8 Piata-Unirii 2 altele 0 nu nu
+9 Biserica-de-lemn 9 altele 0 da nu
+10 Biserica-fortificata 10 istoric 0 da nu
+11 Biserica-Pictata 8 cultural 0 da nu
+12 Biserica 7 altele 0 da nu
+13 Palatul-Culturii 6 cultural 10 nu da
+14 Bojdeuca-Ion-Creanga 6 cultural 5 nu nu
+15 Turnul-Sfatului 3 istoric 0 nu nu
+14 Muzeul-Brukenthal 3 istoric 15 nu da
